@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoción de Comidas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe5b4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 50px;
+        }
+        .promo {
+            background-color: #ff5733;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        .image {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #28a745;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Gran Promoción de Comidas!</h1>
+        <p>Disfruta de nuestras deliciosas comidas con un **50% de descuento** por tiempo limitado.</p>
+        <div class="promo">Combo especial: 2 hamburguesas + papas + refresco por solo $9.99</div>
+        <img class="image" src="https://via.placeholder.com/500" alt="Comida deliciosa">
+        <br>
+        <a href="#" class="button">¡Ordena Ahora!</a>
+    </div>
+</body>
+</html>
+
